@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wahyu Ramadhani — Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#about" class="logo">Wahyu Ramadhani <span class="logo-version"></span></a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#about" class="nav-link active" data-section="about">About</a>
+        <a href="#education" class="nav-link" data-section="education">Education</a>
+        <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" title="Toggle layout density" aria-label="Toggle layout density">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+            <rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+            <rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+            <rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </button>
+        <button class="icon-btn" id="navArrows" title="Jump to next section" aria-label="Jump to next section">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M4 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              opacity="0.4" />
+          </svg>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about-section">
+      <div class="section-inner about-grid">
+        <div class="about-copy" data-reveal>
+          <span class="badge badge-status"><span class="dot"></span>AVAILABLE FOR NEW SYSTEMS</span>
+
+          <h1 class="eyebrow-label">About Me</h1>
+          <p class="role-tag">Fullstack Developer</p>
+
+          <p class="about-desc">
+            Fullstack Developer specializing in modern web application development across both frontend and backend
+            technologies. Experienced in building secure, high-performance, and scalable systems, from designing
+            intuitive user interfaces to implementing business logic and managing database integrations.
+          </p>
+
+          <div class="stat-row">
+            <div class="stat">
+              <span class="stat-value">01+</span>
+              <span class="stat-label">YEARS EXPERIENCE</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-value">5</span>
+              <span class="stat-label">DEPLOYMENTS</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-value">80.9%</span>
+              <span class="stat-label">UPTIME SCORE</span>
+            </div>
+          </div>
+
+          <div class="about-actions">
+            <button class="btn btn-primary" id="initProtocol">
+              Initialize Protocol
+            </button>
+            <button class="icon-btn icon-btn-ghost" title="View source" aria-label="View source">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M8 17l-5-5 5-5M16 7l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="icon-btn icon-btn-ghost" title="Download resume" aria-label="Download resume">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" />
+                <path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="about-portrait" data-reveal>
+          <div class="portrait-frame">
+            <div class="portrait-art">
+              <svg viewBox="0 0 400 460" class="portrait-svg" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <radialGradient id="glow" cx="50%" cy="35%" r="65%">
+                    <stop offset="0%" stop-color="#0c2b30" />
+                    <stop offset="100%" stop-color="#03070a" />
+                  </radialGradient>
+                  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#37e7ff" stop-opacity="0.9" />
+                    <stop offset="100%" stop-color="#37e7ff" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+                <rect width="400" height="460" fill="url(#glow)" />
+                <g stroke="url(#beam)" stroke-width="2" opacity="0.7">
+                  <line x1="40" y1="0" x2="160" y2="460" />
+                  <line x1="90" y1="0" x2="210" y2="460" />
+                  <line x1="330" y1="0" x2="230" y2="460" />
+                </g>
+                <g class="node-pulse">
+                  <circle cx="200" cy="190" r="86" fill="none" stroke="#37e7ff" stroke-width="1" opacity="0.25" />
+                  <circle cx="200" cy="190" r="60" fill="none" stroke="#37e7ff" stroke-width="1" opacity="0.4" />
+                </g>
+                <path
+                  d="M130 120 C130 70 150 40 200 40 C250 40 270 70 270 120 L270 220 C270 270 240 300 200 300 C160 300 130 270 130 220 Z"
+                  fill="#0b1316" stroke="#3fd6e8" stroke-width="1.5" opacity="0.9" />
+                <ellipse cx="160" cy="155" rx="46" ry="60" fill="#091013" stroke="#2bc4d6" stroke-width="1.2" />
+                <ellipse cx="240" cy="155" rx="46" ry="60" fill="#091013" stroke="#2bc4d6" stroke-width="1.2" />
+                <rect x="118" y="140" width="20" height="34" rx="6" fill="#04161a" stroke="#37e7ff"
+                  stroke-width="1.2" />
+                <rect x="262" y="140" width="20" height="34" rx="6" fill="#04161a" stroke="#37e7ff"
+                  stroke-width="1.2" />
+                <path d="M132 110 Q200 60 268 110" fill="none" stroke="#37e7ff" stroke-width="3"
+                  stroke-linecap="round" />
+                <g fill="#37e7ff" opacity="0.85">
+                  <circle cx="178" cy="195" r="3" />
+                  <circle cx="222" cy="195" r="3" />
+                </g>
+                <path d="M186 232 Q200 240 214 232" stroke="#37e7ff" stroke-width="2" fill="none" stroke-linecap="round"
+                  opacity="0.7" />
+                <rect x="0" y="300" width="400" height="160" fill="#03070a" opacity="0.0" />
+              </svg>
+            </div>
+            <div class="identity-tag">
+              <div class="identity-text">
+                <span class="identity-label">IDENTITY_ID</span>
+                <span class="identity-value">ALGORITHMIC_ARCHITECT</span>
+              </div>
+              <span class="identity-check">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                  <path d="M5 13l4 4L19 7" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section">
+      <div class="section-inner">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">// EDUCATION</p>
+            <h2 class="section-title">Education</h2>
+          </div>
+          <span class="badge badge-outline">COMPUTER ENGINEERING</span>
+        </div>
+
+        <div class="education-grid">
+          <div class="card radar-card" data-reveal>
+            <svg viewBox="0 0 260 240" class="radar-svg" id="radarChart" aria-label="Radar chart of technical skills">
+              <!-- generated by script.js -->
+            </svg>
+            <p class="radar-caption">TECHNICAL SKILL INDEX</p>
+          </div>
+
+          <div class="card edu-card" data-reveal>
+            <div class="edu-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M22 9L12 5 2 9l10 4 10-4zM6 11v5c0 1 2.5 3 6 3s6-2 6-3v-5" stroke="currentColor"
+                  stroke-width="1.6" stroke-linejoin="round" />
+              </svg>
+            </div>
+
+            <h3 class="edu-degree">Bachelor of Computer Engineering</h3>
+            <p class="edu-meta">Universitas Diponegoro</p>
+            <p class="edu-desc">
+              Graduated with a Bachelor's degree in Computer Engineering,
+              specializing in software development, information systems,
+              database management, and modern web technologies.
+            </p>
+          </div>
+          <div class="card stack-card" data-reveal>
+            <p class="stack-title">Core Tech Stack</p>
+            <div class="stack-tags">
+              <span class="tag">LARAVEL</span>
+              <span class="tag">CODEIGNITER 4</span>
+              <span class="tag">PHP</span>
+              <span class="tag">JAVASCRIPT</span>
+              <span class="tag">MYSQL</span>
+              <span class="tag">REACT NATIVE</span>
+              <span class="tag">FIREBASE</span>
+              <span class="tag">GIT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section">
+      <div class="section-inner">
+        <div class="section-header centered">
+          <p class="eyebrow">// PROFESSIONAL EXPERIENCE</p>
+          <h2 class="section-title">Career Journey</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <div class="timeline-row" data-reveal>
+            <div class="timeline-card">
+              <p class="timeline-range">2026 — Present</p>
+              <h3 class="timeline-role">Fullstack Developer</h3>
+              <p class="timeline-desc">
+                Developing and maintaining web-based business applications at
+                Nesta Indo Media, focusing on frontend and backend development,
+                database management, API integration, and system optimization.
+              </p>
+            </div>
+            <span class="timeline-node"></span>
+            <div class="timeline-spacer"></div>
+          </div>
+
+          <div class="timeline-row reverse" data-reveal>
+            <div class="timeline-spacer"></div>
+            <span class="timeline-node"></span>
+            <div class="timeline-card">
+              <p class="timeline-range">2025</p>
+              <h3 class="timeline-role">Fullstack Developer</h3>
+              <p class="timeline-desc">
+                Designed and developed inventory management, cashier, and stock
+                monitoring solutions for Toko Sepatu By Sovan, integrating
+                database systems and business process automation.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-row" data-reveal>
+            <div class="timeline-card">
+              <p class="timeline-range">2024</p>
+              <h3 class="timeline-role">Fullstack Developer Intern</h3>
+              <p class="timeline-desc">
+                Completed an internship at PT Sucofindo, contributing to web
+                application development, system maintenance, database management,
+                and implementation of business process solutions.
+              </p>
+            </div>
+            <span class="timeline-node"></span>
+            <div class="timeline-spacer"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">// FEATURED PROJECTS</p>
+            <h2 class="section-title">Selected Works</h2>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <a href="#" class="project-card" data-reveal>
+            <div class="project-media project-media-finance">
+              <span class="status-pill">DEPLOYED</span>
+              <svg viewBox="0 0 400 220" class="project-chart" preserveAspectRatio="none">
+                <polyline class="chart-area"
+                  points="0,200 20,180 40,190 60,150 80,160 100,120 120,140 140,100 160,110 180,80 200,95 220,70 240,90 260,60 280,75 300,50 320,65 340,45 360,55 380,40 400,50 400,220 0,220" />
+                <polyline class="chart-line"
+                  points="0,200 20,180 40,190 60,150 80,160 100,120 120,140 140,100 160,110 180,80 200,95 220,70 240,90 260,60 280,75 300,50 320,65 340,45 360,55 380,40 400,50" />
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3 class="project-title">Sistem Manajemen Toko Sepatu</h3>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="project-arrow">
+                  <path d="M7 17L17 7M7 7h10v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+
+              <p class="project-desc">
+                Developed an integrated shoe store management system featuring
+                inventory management, stock opname, cashier transactions, sales
+                reporting, QR Code-based inventory tracking, and real-time stock
+                monitoring to improve operational efficiency.
+              </p>
+
+              <div class="project-meta">
+                <div>
+                  <p class="project-meta-label">STACK</p>
+                  <p class="project-meta-value">
+                    Laravel 11 • PHP • MySQL • JavaScript
+                  </p>
+                </div>
+                <div>
+                  <p class="project-meta-label">TYPE</p>
+                  <p class="project-meta-value">Inventory Management System</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a href="#" class="project-card" data-reveal>
+            <div class="project-media project-media-grid">
+              <span class="status-pill">DEPLOYED</span>
+              <svg viewBox="0 0 400 220" class="project-grid3d">
+                <g class="grid3d-lines"></g>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3 class="project-title">Sistem Monitoring Dokumen</h3>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="project-arrow">
+                  <path d="M7 17L17 7M7 7h10v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+
+              <p class="project-desc">
+                Developed a document monitoring system to manage document
+                submissions, approval workflows, status tracking, notifications,
+                and reporting features, helping organizations streamline document
+                management processes.
+              </p>
+
+              <div class="project-meta">
+                <div>
+                  <p class="project-meta-label">STACK</p>
+                  <p class="project-meta-value">
+                    CodeIgniter 3 • PHP • MySQL • JavaScript
+                  </p>
+                </div>
+                <div>
+                  <p class="project-meta-label">TYPE</p>
+                  <p class="project-meta-value">Document Management System</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a href="#" class="project-card" data-reveal>
+            <div class="project-media project-media-finance">
+              <span class="status-pill">COMPLETED</span>
+              <svg viewBox="0 0 400 220" class="project-chart" preserveAspectRatio="none">
+                <polyline class="chart-area"
+                  points="0,200 20,180 40,190 60,150 80,160 100,120 120,140 140,100 160,110 180,80 200,95 220,70 240,90 260,60 280,75 300,50 320,65 340,45 360,55 380,40 400,50 400,220 0,220" />
+                <polyline class="chart-line"
+                  points="0,200 20,180 40,190 60,150 80,160 100,120 120,140 140,100 160,110 180,80 200,95 220,70 240,90 260,60 280,75 300,50 320,65 340,45 360,55 380,40 400,50" />
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3 class="project-title">
+                  Sistem Informasi Pariwisata Kawasan Wisata Candi Borobudur
+                </h3>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="project-arrow">
+                  <path d="M7 17L17 7M7 7h10v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+
+              <p class="project-desc">
+                Developed a tourism information system that provides destination
+                details, tourist attractions, event information, galleries,
+                location maps, and visitor guidance features to enhance the
+                tourism experience in the Borobudur area.
+              </p>
+
+              <div class="project-meta">
+                <div>
+                  <p class="project-meta-label">STACK</p>
+                  <p class="project-meta-value">
+                    Laravel • PHP • MySQL • Bootstrap
+                  </p>
+                </div>
+                <div>
+                  <p class="project-meta-label">TYPE</p>
+                  <p class="project-meta-value">Tourism Information System</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="fetch-row">
+          <button class="btn btn-outline" id="fetchRepos">
+            FETCH_ALL_REPOS <span class="fetch-arrow">↘</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+      <div class="section-inner">
+        <div class="contact-card">
+          <span class="system-status">SYSTEM_READY<br />Uptime: 99.9%</span>
+          <p class="contact-title">Ready to deploy your next breakthrough?</p>
+          <p class="contact-desc">
+            Currently considering freelance partnerships and full-time
+            technical leadership roles within innovative product teams.
+          </p>
+
+          <div class="contact-actions">
+            <a href="mailto:hello@devengine.io" class="btn btn-primary">
+              Initialize Project
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-ghost">GITHUB</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="btn btn-ghost">LINKEDIN</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-inner footer-inner">
+      <div>
+        <p class="footer-title">Engineering Precision</p>
+        <p class="footer-sub">
+          © 2024 Engineering Precision. Built with System-Grid Architecture.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Documentation</a>
+        <a href="#">Changelog</a>
+        <a href="https://github.com" target="_blank" rel="noopener">Github</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
