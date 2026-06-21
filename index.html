@@ -109,51 +109,20 @@
         <div class="about-portrait" data-reveal>
           <div class="portrait-frame">
             <div class="portrait-art">
-              <svg viewBox="0 0 400 460" class="portrait-svg" preserveAspectRatio="xMidYMid slice">
-                <defs>
-                  <radialGradient id="glow" cx="50%" cy="35%" r="65%">
-                    <stop offset="0%" stop-color="#0c2b30" />
-                    <stop offset="100%" stop-color="#03070a" />
-                  </radialGradient>
-                  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stop-color="#37e7ff" stop-opacity="0.9" />
-                    <stop offset="100%" stop-color="#37e7ff" stop-opacity="0" />
-                  </linearGradient>
-                </defs>
-                <rect width="400" height="460" fill="url(#glow)" />
-                <g stroke="url(#beam)" stroke-width="2" opacity="0.7">
-                  <line x1="40" y1="0" x2="160" y2="460" />
-                  <line x1="90" y1="0" x2="210" y2="460" />
-                  <line x1="330" y1="0" x2="230" y2="460" />
-                </g>
-                <g class="node-pulse">
-                  <circle cx="200" cy="190" r="86" fill="none" stroke="#37e7ff" stroke-width="1" opacity="0.25" />
-                  <circle cx="200" cy="190" r="60" fill="none" stroke="#37e7ff" stroke-width="1" opacity="0.4" />
-                </g>
-                <path
-                  d="M130 120 C130 70 150 40 200 40 C250 40 270 70 270 120 L270 220 C270 270 240 300 200 300 C160 300 130 270 130 220 Z"
-                  fill="#0b1316" stroke="#3fd6e8" stroke-width="1.5" opacity="0.9" />
-                <ellipse cx="160" cy="155" rx="46" ry="60" fill="#091013" stroke="#2bc4d6" stroke-width="1.2" />
-                <ellipse cx="240" cy="155" rx="46" ry="60" fill="#091013" stroke="#2bc4d6" stroke-width="1.2" />
-                <rect x="118" y="140" width="20" height="34" rx="6" fill="#04161a" stroke="#37e7ff"
-                  stroke-width="1.2" />
-                <rect x="262" y="140" width="20" height="34" rx="6" fill="#04161a" stroke="#37e7ff"
-                  stroke-width="1.2" />
-                <path d="M132 110 Q200 60 268 110" fill="none" stroke="#37e7ff" stroke-width="3"
-                  stroke-linecap="round" />
-                <g fill="#37e7ff" opacity="0.85">
-                  <circle cx="178" cy="195" r="3" />
-                  <circle cx="222" cy="195" r="3" />
-                </g>
-                <path d="M186 232 Q200 240 214 232" stroke="#37e7ff" stroke-width="2" fill="none" stroke-linecap="round"
-                  opacity="0.7" />
-                <rect x="0" y="300" width="400" height="160" fill="#03070a" opacity="0.0" />
-              </svg>
+              <!--
+                GANTI FOTO PROFIL DI SINI:
+                1. Letakkan file foto kamu (misal "profile.jpg") di folder yang sama
+                   dengan index.html, style.css, dan script.js.
+                2. Ubah nilai src="" di bawah ini sesuai nama file fotomu.
+                3. Pastikan rasio foto idealnya potret/portrait (lebih tinggi dari lebar),
+                   karena frame ini akan otomatis memotong (crop) foto secara proporsional.
+              -->
+              <img src="porto_wahyu.jpeg." alt="Foto Wahyu Ramadhani" class="portrait-img" />
             </div>
             <div class="identity-tag">
               <div class="identity-text">
                 <span class="identity-label">IDENTITY_ID</span>
-                <span class="identity-value">FULLSTACK DEVELOPER</span>
+                <span class="identity-value">FULLSTACK_DEVELOPER</span>
               </div>
               <span class="identity-check">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
