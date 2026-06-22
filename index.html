@@ -30,14 +30,6 @@
       </nav>
 
       <div class="header-actions">
-        <button class="icon-btn" id="themeToggle" title="Toggle layout density" aria-label="Toggle layout density">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-            <rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
-            <rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
-            <rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
-            <rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
-          </svg>
-        </button>
         <button class="icon-btn" id="navArrows" title="Jump to next section" aria-label="Jump to next section">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
             <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -427,6 +419,62 @@
       </div>
     </div>
   </footer>
+
+  <!-- ===== FLOATING THEME TOGGLE ===== -->
+  <button class="icon-btn floating-toggle" id="themeToggle" title="Toggle layout density" aria-label="Toggle layout density">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+      <rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+      <rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+      <rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2" />
+    </svg>
+  </button>
+
+  <!-- ===== FLOATING BOTTOM NAV ===== -->
+  <nav class="bottom-nav" id="bottomNav" aria-label="Quick navigation">
+    <a href="#about" class="bn-item active" data-section="about">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path d="M3 11.5L12 4l9 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5.5 10v9h13v-9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Tentang</span>
+    </a>
+
+    <a href="#education" class="bn-item" data-section="education">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path d="M4 5.5c2-1 5-1 7 .5v13c-2-1.5-5-1.5-7-.5v-13Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M20 5.5c-2-1-5-1-7 .5v13c2-1.5 5-1.5 7-.5v-13Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      </svg>
+      <span>Edukasi</span>
+    </a>
+
+    <a href="#experience" class="bn-item" data-section="experience">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <rect x="3" y="7.5" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M8 7.5V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1.5" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M3 12.5h18" stroke="currentColor" stroke-width="1.8"/>
+      </svg>
+      <span>Karir</span>
+    </a>
+
+    <a href="#projects" class="bn-item" data-section="projects">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <rect x="3" y="4.5" width="18" height="15" rx="2" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M3 9.5h18" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="8" cy="14" r="1.4" fill="currentColor"/>
+        <path d="M11 15.5l2.5-3 2 2.2L18 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Proyek</span>
+    </a>
+
+    <a href="#contact" class="bn-item" data-section="contact">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M4 6.5l8 6.5 8-6.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Kontak</span>
+    </a>
+  </nav>
 
   <script src="script.js"></script>
 </body>
